@@ -17,9 +17,11 @@ class Shows < ActiveRecord::Base
   end
 
   def ratings_sum
+    self.sum(:rating)
   end
 
   def popular_shows
+    self.where("rating > ?", 5)
   end
 
   def shows_by_alphabetical_order
