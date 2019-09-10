@@ -1,4 +1,4 @@
-class CreateTvShows
+class CreateShows
   def change
     create_table :shows do |t|
 
