@@ -1,5 +1,5 @@
 class CreateTvShows
-  def change 
-
-  end 
-end 
+  def change
+    create_table :shows
+  end
+end
