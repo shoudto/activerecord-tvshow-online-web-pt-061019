@@ -3,6 +3,6 @@ class CreateTvShows
     create_table :shows do |t|
 
 
-    end 
+    end
   end
 end
